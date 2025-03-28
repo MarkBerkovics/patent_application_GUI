@@ -122,7 +122,6 @@ with st.sidebar:
         with st.spinner("Generating Google Doc ...", show_time=True):
 
             payload = {
-                "query": query,
                 "messages": st.session_state.messages
             }
 
